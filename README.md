@@ -4,10 +4,10 @@ An interactive Customer Retention and Churn Analysis Dashboard built using Pytho
 
 ## Live Demo
 
-Live Dashboard:
+Live Dashboard:  
 https://customer-retention-and-churn-analysis-e2kwefdqne3sagv8mge8t8.streamlit.app
 
-GitHub Repository:
+GitHub Repository:  
 https://github.com/Naina137/Customer-Retention-and-Churn-Analysis
 
 ---
@@ -58,7 +58,7 @@ The main objectives of this project are:
 - Analyze payment methods and their relationship with churn.
 - Understand internet and additional service usage.
 - Analyze customer billing and lifetime metrics.
-- Identify important churn drivers.
+- Identify important churn indicators.
 - Visualize customer behavior through an interactive dashboard.
 - Generate meaningful business insights.
 - Provide actionable recommendations for improving customer retention.
@@ -378,6 +378,7 @@ The analysis can help businesses:
 
 ## Project Workflow
 
+```text
 Customer Churn Dataset
         ↓
 Data Loading
@@ -399,11 +400,13 @@ Interactive Streamlit Dashboard
 Business Insights
         ↓
 Retention Recommendations
+```
 
 ---
 
 ## Project Structure
 
+```text
 Customer-Retention-and-Churn-Analysis/
 │
 ├── app.py
@@ -414,6 +417,7 @@ Customer-Retention-and-Churn-Analysis/
 ├── retention-analysis.png
 ├── payment-analysis.png
 └── customer-analytics.png
+```
 
 ---
 
@@ -423,35 +427,49 @@ Customer-Retention-and-Churn-Analysis/
 
 Open your terminal or command prompt and run:
 
+```bash
 git clone https://github.com/Naina137/Customer-Retention-and-Churn-Analysis.git
+```
 
 ### Step 2: Navigate to the Project Folder
 
+```bash
 cd Customer-Retention-and-Churn-Analysis
+```
 
 ### Step 3: Create a Virtual Environment
 
 This step is optional but recommended.
 
+```bash
 python -m venv venv
+```
 
 For Windows:
 
+```bash
 venv\Scripts\activate
+```
 
 ### Step 4: Install Dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
 ### Step 5: Run the Streamlit Application
 
+```bash
 streamlit run app.py
+```
 
 The dashboard will open automatically in your default browser.
 
 If it does not open automatically, visit:
 
+```text
 http://localhost:8501
+```
 
 Make sure the dataset is present in the project folder before running the application.
 
@@ -461,12 +479,14 @@ Make sure the dataset is present in the project folder before running the applic
 
 The project uses the following Python packages:
 
+```text
 streamlit
 pandas
 numpy
 plotly
+```
 
-These dependencies are included in the requirements.txt file.
+These dependencies are included in the `requirements.txt` file.
 
 ---
 
@@ -588,13 +608,13 @@ Interested in Data Science, Data Analytics, Machine Learning, Business Intellige
 
 ### Connect With Me
 
-GitHub:
+GitHub:  
 https://github.com/Naina137
 
-LinkedIn:
+LinkedIn:  
 https://www.linkedin.com/in/naina-kumari-06373132b
 
-Live Project:
+Live Project:  
 https://customer-retention-and-churn-analysis-e2kwefdqne3sagv8mge8t8.streamlit.app
 
 Feel free to explore the project, review the source code, or connect with me for collaboration and opportunities.
